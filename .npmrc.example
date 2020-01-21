@@ -1,0 +1,11 @@
+# 1. Copy and rename this file to .npmrc
+#    or add the following lines to your existing .npmrc file.
+#
+# 2. Replace ${FONTAWESOME_NPM_AUTH_TOKEN} with your npm auth token
+#    or export FONTAWESOME_NPM_AUTH_TOKEN as an environment variable.
+#
+# For more info,
+# https://fontawesome.com/how-to-use/on-the-web/setup/using-package-managers#installing-pro
+#
+@fortawesome:registry=https://npm.fontawesome.com/
+//npm.fontawesome.com/:_authToken=${FONTAWESOME_NPM_AUTH_TOKEN}

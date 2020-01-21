@@ -1,0 +1,20 @@
+{
+  "name": "so-widgets-icon-fap",
+  "version": "1.0.0",
+  "description": "Converts Font Awesome metadata for use with SiteOrigin Icon widget",
+  "dependencies": {},
+  "devDependencies": {
+    "@fortawesome/fontawesome-pro": "^5.12.0",
+    "js-yaml": "^3.13.1"
+  },
+  "main": "parser/index.js",
+  "scripts": {
+    "postinstall": "./inc/postinstall.sh"
+  },
+  "author": "ridgekuhn",
+    "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ridgekuhn/so-widgets-icon-fap.git"
+  }
+  "license": "ISC"
+}
