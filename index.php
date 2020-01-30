@@ -22,7 +22,7 @@ function rjk_sow_icon_fontawesomepro_filter( $icon_families ) {
   /** @var string $style_uri Path to the Font Awesome Pro stylesheet */
   $style_uri = plugin_dir_url( __FILE__ ) . 'css/all.css';
   // Cache busting
-  $style_uri .= '?ver=' . filemtime( plugin_dir_path(__FILE__) . $font . '/style.css' );
+  $style_uri .= '?ver=' . filemtime( plugin_dir_url( __FILE__ ) . 'css/all.css' );
 
   /** @var array $styles Set up icon Styles list for SO Icon widget form */
   // [key] is rendered as a class name by siteorigin_widget_get_icon()
