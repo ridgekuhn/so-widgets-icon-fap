@@ -1,5 +1,5 @@
 # SiteOrigin Icon Font Awesome Pro
-**WIP**: *This plugin is non-functional. Icon rendering is not complete.*
+**WIP**: *This plugin is non-functional. Has issues saving and rendering.*
 
 Adds Font Awesome Pro icon library to [SiteOrigin Icon Widget](https://siteorigin.com/widgets-bundle/icon-widget/).
 
