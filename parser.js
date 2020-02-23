@@ -59,19 +59,19 @@ try {
       // and for rendering element class names
       switch ( styles [ style ] ) {
         case 'solid'   :
-          newMeta[ 'styles' ].push( 'fas' );
+          newMeta[ 'styles' ].push( 'sow-fas' );
           break;
         case 'regular' :
-          newMeta[ 'styles' ].push( 'far' );
+          newMeta[ 'styles' ].push( 'sow-far' );
           break;
         case 'light'   :
-          newMeta[ 'styles' ].push( 'fal' );
+          newMeta[ 'styles' ].push( 'sow-fal' );
           break;
         case 'duotone' :
-          newMeta[ 'styles' ].push( 'fad' );
+          newMeta[ 'styles' ].push( 'sow-fad' );
           break;
         case 'brands'  :
-          newMeta[ 'styles' ].push( 'fab' );
+          newMeta[ 'styles' ].push( 'sow-fab' );
           break;
       }
     }

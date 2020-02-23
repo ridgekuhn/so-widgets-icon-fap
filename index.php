@@ -45,11 +45,11 @@ function rjk_sow_icon_fontawesomepro_filter( $icon_families ) {
   // Prepare the styles list for SO Icon widget's style dropdown
   // [key] is rendered as a class name by siteorigin_widget_get_icon()
   $styles = array(
-    'fab' => __( 'Pro - Brands', 'so-widgets-bundle' ),
-    'fad' => __( 'Pro - Duotone', 'so-widgets-bundle' ),
-    'fal' => __( 'Pro - Light', 'so-widgets-bundle' ),
-    'far' => __( 'Pro - Regular', 'so-widgets-bundle' ),
-    'fas' => __( 'Pro - Solid', 'so-widgets-bundle' )
+    'sow-fab' => __( 'Pro - Brands', 'so-widgets-bundle' ),
+    'sow-fad' => __( 'Pro - Duotone', 'so-widgets-bundle' ),
+    'sow-fal' => __( 'Pro - Light', 'so-widgets-bundle' ),
+    'sow-far' => __( 'Pro - Regular', 'so-widgets-bundle' ),
+    'sow-fas' => __( 'Pro - Solid', 'so-widgets-bundle' )
   );
 
   // Add the Font Awesome Pro icon set to the array

@@ -11,12 +11,12 @@ else
   echo "ERROR: Couldn't copy stylesheet";
 fi
 
-cat inc/sow-icon-fontawesomepro-css.inc >> css/all.css
-if [ $? -eq 0 ]; then
-  echo "Successfully modified stylesheet";
-else
-  echo "ERROR: Couldn't modify stylesheet";
-fi
+#cat inc/sow-icon-fontawesomepro-css.inc >> css/all.css
+#if [ $? -eq 0 ]; then
+#  echo "Successfully modified stylesheet";
+#else
+#  echo "ERROR: Couldn't modify stylesheet";
+#fi
 
 if [ ! -d webfonts ]; then
   mkdir webfonts;
